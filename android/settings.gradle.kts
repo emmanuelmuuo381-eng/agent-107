@@ -1,10 +1,9 @@
 pluginManagement {
-    def repositoryHandler = {
+    repositories {
         google()
         mavenCentral()
         gradlePluginPortal()
     }
-    repositories repositoryHandler
 }
 
 plugins {
